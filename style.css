@@ -1,6 +1,13 @@
 body {
   background-color: paleturquoise;
 }
+
 h1 {
   font: italic bold 48px arial; 
+}
+
+p {
+  background-color: lightcyan;
+  color: midnightblue;
+  border: medium dashed black;
 }
