@@ -1,13 +1,31 @@
 body {
-  background-color: paleturquoise;
+  	background-color: paleturquoise;
 }
 
 h1 {
-  font: italic bold 48px arial; 
+  	font: italic bold 48px arial; 
+}
+
+h2 {
+	font: 28px georgia;
+}
+
+ul li {
+	font: italic 20px georgia;
 }
 
 p {
-  background-color: lightcyan;
-  color: midnightblue;
-  border: medium dashed black;
+  	background-color: lavenderblush;
+  	color: indigo;
+  	border: medium solid black;
+	font: 16px helvetica;
+}
+
+a {
+	background-color: snow;
+	font: 16px helvetica;
+}
+
+img {
+	border: medium dotted darkblue;
 }
