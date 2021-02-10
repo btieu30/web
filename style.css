@@ -24,6 +24,7 @@ p {
 a {
 	background-color: snow;
 	font: 14px helvetica;
+	display: block;
 }
 
 img {
