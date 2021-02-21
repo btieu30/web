@@ -12,6 +12,8 @@ h2 {
 
 ul li {
 	font: italic 20px georgia;
+	list-style: none; 
+	float: left;
 }
 
 p {
@@ -24,6 +26,15 @@ p {
 a {
 	background-color: snow;
 	font: 14px helvetica;
+	display: block;
+	padding: 12 px; 
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+
+li a:hover {
+	background-color: purple;
 }
 
 img {
