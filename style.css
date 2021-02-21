@@ -12,33 +12,17 @@ h2 {
 
 ul li {
 	font: italic 20px georgia;
-	list-style: none; 
-	float: left;
-}
-
-li a {
-	background-color: snow;
-	font: 20px helvetica;
-	display: block;
-	padding: 12 px 12 px; 
-	text-align: center;
-	text-decoration: none;
-	color: black;
-}
-
-li a:hover {
-	background-color: purple;
-}
-
-a {
-	background-color: snow;
-	font: 14px helvetica;
 }
 
 p {
   	background-color: lavenderblush;
   	color: indigo;
   	border: medium solid black;
+	font: 14px helvetica;
+}
+
+a {
+	background-color: snow;
 	font: 14px helvetica;
 }
 
