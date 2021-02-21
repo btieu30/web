@@ -16,18 +16,11 @@ ul li {
 	float: left;
 }
 
-p {
-  	background-color: lavenderblush;
-  	color: indigo;
-  	border: medium solid black;
-	font: 14px helvetica;
-}
-
-a {
+li a {
 	background-color: snow;
-	font: 14px helvetica;
+	font: 20px helvetica;
 	display: block;
-	padding: 12 px; 
+	padding: 12 px 12 px; 
 	text-align: center;
 	text-decoration: none;
 	color: black;
@@ -35,6 +28,18 @@ a {
 
 li a:hover {
 	background-color: purple;
+}
+
+a {
+	background-color: snow;
+	font: 14px helvetica;
+}
+
+p {
+  	background-color: lavenderblush;
+  	color: indigo;
+  	border: medium solid black;
+	font: 14px helvetica;
 }
 
 img {
