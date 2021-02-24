@@ -46,10 +46,6 @@ li a {
   	font: 40px;
 }
 
-li a:hover {
-  	background-color: #33A1FF;
-}
-
 .current {
   	background-color: cyan;
 }
