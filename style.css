@@ -4,49 +4,47 @@ body {
 }
 
 h1 {
+	padding-left: 15px;
   	font: italic bold 48px arial; 
 }
 
 h2 {
-	font: 28px georgia;
+	padding-left: 15px;
+	font: 30px georgia;
 }
 
 p {
+	padding: 10px 10px 10px 10px;
   	background-color: lavenderblush;
   	color: indigo;
   	border: medium solid black;
-	font: 14px helvetica;
-}
-
-.section {
-	display: flex;
+	font: 20px helvetica;
 }
 
 img {
-	border: medium dotted darkblue;
+	padding-right: 30px;
 }
 
-ul {
-  	list-style-type: none;
+nav ul {
+  	list-style: none;
 	margin: 0;
   	padding: 0;
   	background-color: white;
   	position: fixed;
-  	top: 0;
-  	width: 100%; 
+	top: 0;
+	width: 100%; 
 }
 
-li {
+nav li {
   	float: left;
   	border-right: 2px solid black; 
 }
 
-li a {
-  	display: block;
+nav a {
   	color: black;
   	text-align: center;
   	padding: 10px 30px 10px 30px;
-  	text-decoration: none;
+	text-decoration: none;
   	font: 40px;
 }
 
@@ -57,4 +55,45 @@ li a {
 a {
   	display: block;
   	color: midnightblue;
+	font: 20px helvetica;
+}
+
+.home {
+	padding-left: 50px;
+	width: 85%;
+	display: flex;
+}
+
+.about {
+	padding-left: 50px;
+	width: 90%;
+}
+
+.debut {
+	padding-left: 25px;
+}
+
+.aboutlink {
+	padding-left: 25px;
+	padding-top: 5px;
+}
+
+.fame {
+	padding-left: 25px;
+	width: 90%;
+	display: flex;
+}
+
+.famelink {
+	padding-top: 5px;
+	padding-left: 30px;
+}
+
+.recent {
+	display: flex;
+	padding-left: 25px;
+}
+
+.recentlink {
+	padding-top: 20px;
 }
