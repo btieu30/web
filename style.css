@@ -12,15 +12,18 @@ h2 {
 }
 
 p {
-	display: flex;
   	background-color: lavenderblush;
   	color: indigo;
   	border: medium solid black;
 	font: 14px helvetica;
 }
 
+.section {
+	display: flex;
+}
+
 img {
-	border: medium dotted black;
+	border: medium dotted darkblue;
 }
 
 ul {
