@@ -9,10 +9,9 @@
   <body>
     <h1>Guess the Number Game by Brianna Tieu (Period 4)</h1>
 
-
     <h2>Table of Contents</h2>
 
- <div class="content">
+<div class="content">
     <ul>
       <li>What is the Guess the Number Game?</li>
       <li>Guess the Number in Python</li>
@@ -25,7 +24,7 @@
 
     <img src = "https://www.funbrain.com/assets/img/content-cards/F2qRmLhRnmebc8jJAUjr_GuessTheNumber%403x.png" width="400" height="250">
 </div>
-    
+
     <h2>What is the Guess the Number Game?</h2>
       <p>
         My project is a remake of the Guess the Number game within Python. Guess the Number is a game where a random number is selected between a specific range (which is typically given to the player), which the player is meant to guess usually within a given number of tries.
@@ -35,16 +34,19 @@
       <p>
         Although the game conventionally gives players a limited amount of guesses, there is no restriction within my Python program on the number of guesses. In the Python program, a random number between 0-30 (inclusive) is generated and it is up to the player to guess this number. Once the player makes their first guess, if it is wrong, they are given hints to guide them towards guessing the right number. There are only two options for the hints, which tells the player if their most recent guess was too low or too high. Once the player guesses correctly, a graph will appear on the screen showing the game overview.
       </p>
-    
+
     <h2>How to Play</h2>
       <p>
         In the program, the user is meant to play the game by inputting data within the Python shell. First, the program must be run. Once it is run, the user inputs their name into the shell. After this, a message in the shell will prompt the player to make their first guess. Based on this input, they are given hints denoting if their guess was too high or too low. This continues until the user guesses correctly, which will be denoted by a message in shell, as well as a graph appearing on the screen. The graph shows the amount of tries it took to guess the right number, as well as the respective guesses for each try.
       </p>
 
     <h2>What is the purpose of recreating this game in Python?</h2>
+<div class = "purpose">
        <p>
          The purpose of recreating this game is to analyze patterns in the players' guesses and see how these patterns contribute to the number of tries it takes the player to get to the right number. We can manipulate matplotlib in Python to make this process much easier as well.
        </p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png" width="300" height="200">
+</div>
 
     <h2>Player Graph Examples</h2>
     <img src = "https://btieu30.github.io/web/bobgraph.png" width="500" height="400">
@@ -52,12 +54,12 @@
       <p>
         In these graphs, we can observe specific guessing patterns of the players. For example, by Bob's graphs, we can see that he guesses a small number first and based on the given hint, guesses a larger number. This process allows Bob to slowly narrow the 0-30 range, leading him to guess the number in 5 tries. However, we see in Lisa's graph that she first guesses 15, which is the mean of the 0-30 range. From here, she is given hints that allow her to guess the number within 6 tries. Based on these two game overviews, one may assess their strategies and apply this to other guessing games in the real world.
       </p>
-    
+
     <h2>List of Files</h2>
-      <p> 
+      <p>
         The first file in the zip file named final_project.zip is Guess_the_Number.py, which is the actual Python program that runs the Guess the Number game. The second file in the zip file is titled random_ints.csv. This file contains 200 random integers from 0-30, each printed on separate lines.
       </p>
-    
+
     <h2>Resources Used / Project Website</h2>
       <p>
         I used one link to generate the CSV file containing the random integers from 0-30.
